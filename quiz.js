@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
       } catch (error) {
         console.log(error);
         alert("Error Occurred!! Please Retry");
+        window.location.href=`index.html`
       } finally {
         document.getElementById('loader').style.display = 'none'; // Hide loader
       }
