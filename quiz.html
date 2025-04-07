@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz</title>
+  <link rel="stylesheet" href="quiz.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="loader" class="loader-overlay">
+    <div class="spinner"></div>
+  </div>
+  
+  <div class="quiz-container">
+    <div class="question-number" id="questionNumber">Question 1 of X</div>
+    <div class="question-text" id="questionText">Loading question...</div>
+    <div class="options" id="optionsContainer">
+        <button id="option1" class="option-btn">--</button>
+        <button id="option2" class="option-btn">--</button>
+        <button id="option3" class="option-btn">--</button>
+        <button id="option4" class="option-btn">--</button>
+    </div>
+    
+    <div class="controls">
+        <button id="nextBtn"  >Next</button>
+    </div>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
